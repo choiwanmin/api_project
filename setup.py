@@ -8,7 +8,8 @@ setup(
     url = "https://github.com/choiwanmin/api_project.git",
     author = "wmchoi",
     author_email = "wmchoi250@gmail.com",
-    package = ["my_api"],
+    packages = ["my_api"],
+    zip_safe = False,
     install_requires = [
         "requests"
     ]
